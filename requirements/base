@@ -1,0 +1,16 @@
+django-phonenumber-field==8.0.0
+phonenumbers==8.13.52
+python-telegram-bot==13
+aiosignal==1.3.1
+Django==4.2.6
+ipython==8.16.1
+psycopg2-binary==2.9.9
+requests==2.31.0
+Telethon==1.31.1
+django-environ
+gunicorn
+django-celery-results
+redis
+django-celery-beat
+django-redis
+

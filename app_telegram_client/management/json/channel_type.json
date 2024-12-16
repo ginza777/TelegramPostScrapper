@@ -1,0 +1,17 @@
+[
+  {
+    "fields": {
+      "type": "home_ads"
+    }
+  },
+  {
+    "fields": {
+      "type": "car_ads"
+    }
+  },
+  {
+    "fields": {
+      "type": "phone_ads"
+    }
+  }
+]

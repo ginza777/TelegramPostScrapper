@@ -1,0 +1,422 @@
+[
+  {
+    "model": "setting_ads.channels",
+    "pk": 1,
+    "fields": {
+      "created_at": "2023-12-23T20:30:42.708Z",
+      "updated_at": "2023-12-23T20:30:42.708Z",
+      "channel_name": "UY BOZOR | KVARTIRA | YANGI UYLAR",
+      "channel_link": "https://t.me/uybozor_bizning_uylar",
+      "channel_id": "-1002037096011",
+      "my_channel": true,
+      "bot": 1,
+      "type": 1,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 2,
+    "fields": {
+      "created_at": "2023-12-23T20:32:25.169Z",
+      "updated_at": "2023-12-23T20:32:25.169Z",
+      "channel_name": "Toshkent kvartira | uybor.uz | makler",
+      "channel_link": "https://t.me/kvartira_toshkent_uy_dacha_hovli",
+      "channel_id": "-1001974483231",
+      "my_channel": true,
+      "bot": 1,
+      "type": 1,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 3,
+    "fields": {
+      "created_at": "2023-12-23T20:33:42.389Z",
+      "updated_at": "2023-12-23T20:33:42.389Z",
+      "channel_name": "Avto bozor | Moshina bozor | Brand car",
+      "channel_link": "https://t.me/Avto_elon_moshina_bor",
+      "channel_id": "-1001987881764",
+      "my_channel": true,
+      "bot": 1,
+      "type": 2,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 4,
+    "fields": {
+      "created_at": "2023-12-23T20:34:59.981Z",
+      "updated_at": "2023-12-23T20:34:59.981Z",
+      "channel_name": "Avtoelon.uz | Mashina bozor | Avtomobil.uz",
+      "channel_link": "https://t.me/Avtobozor_car_bazar",
+      "channel_id": "-1001966434000",
+      "my_channel": true,
+      "bot": 1,
+      "type": 2,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 5,
+    "fields": {
+      "created_at": "2023-12-23T20:35:58.138Z",
+      "updated_at": "2023-12-23T20:35:58.138Z",
+      "channel_name": "MOSHINA BOZOR \ud83d\ude97\ud83d\ude98",
+      "channel_link": "https://t.me/Avtoelonnuzb",
+      "channel_id": "-1002130239758",
+      "my_channel": true,
+      "bot": 1,
+      "type": 2,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 6,
+    "fields": {
+      "created_at": "2023-12-23T20:37:08.821Z",
+      "updated_at": "2023-12-23T20:37:08.821Z",
+      "channel_name": "Arzon telefonlar | Telefon bozor | Mobil smartfonlar",
+      "channel_link": "https://t.me/Arzon_telefonlar_bozorii",
+      "channel_id": "-1001956118401",
+      "my_channel": true,
+      "bot": 1,
+      "type": 3,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 7,
+    "fields": {
+      "created_at": "2023-12-23T20:38:05.156Z",
+      "updated_at": "2023-12-23T20:38:05.156Z",
+      "channel_name": "Apple Pro | Iphone narxlari | Telefon bozor",
+      "channel_link": "https://t.me/Apple_bozor_rasmiy",
+      "channel_id": "-1002001581527",
+      "my_channel": true,
+      "bot": 1,
+      "type": 3,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 8,
+    "fields": {
+      "created_at": "2023-12-23T20:39:08.241Z",
+      "updated_at": "2023-12-23T20:39:08.241Z",
+      "channel_name": "Mobil telefon| Iphone | olx.uz | malika bozor | Smartfon shop",
+      "channel_link": "https://t.me/apple_samsung_market",
+      "channel_id": "-1001950325788",
+      "my_channel": true,
+      "bot": 1,
+      "type": 3,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 9,
+    "fields": {
+      "created_at": "2023-12-23T20:45:09.985Z",
+      "updated_at": "2023-12-23T20:45:09.985Z",
+      "channel_name": "TELEFON BOZOR",
+      "channel_link": "https://t.me/andijan_telefon_telfonbozori_uzb",
+      "channel_id": "-1001618908590",
+      "my_channel": false,
+      "bot": null,
+      "type": 3,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 10,
+    "fields": {
+      "created_at": "2023-12-23T20:49:35.544Z",
+      "updated_at": "2023-12-23T20:49:35.544Z",
+      "channel_name": "Toshkent Telefon Bozor",
+      "channel_link": "https://t.me/telefon",
+      "channel_id": "-1001566026405",
+      "my_channel": false,
+      "bot": null,
+      "type": 3,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 11,
+    "fields": {
+      "created_at": "2023-12-23T20:51:13.723Z",
+      "updated_at": "2023-12-23T20:51:13.723Z",
+      "channel_name": "BUXORO TELEFON BOZORI",
+      "channel_link": "https://t.me/Buxoro_telfon_bozor_telefon",
+      "channel_id": "-1001274070402",
+      "my_channel": false,
+      "bot": null,
+      "type": 3,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 12,
+    "fields": {
+      "created_at": "2023-12-23T20:53:10.619Z",
+      "updated_at": "2023-12-23T20:53:10.619Z",
+      "channel_name": "TELEFON BOZORI",
+      "channel_link": "https://t.me/Telfon_bozori_Telbozor_toshkent",
+      "channel_id": "-1001223182303",
+      "my_channel": false,
+      "bot": null,
+      "type": 3,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 13,
+    "fields": {
+      "created_at": "2023-12-23T20:56:37.383Z",
+      "updated_at": "2023-12-23T20:56:37.383Z",
+      "channel_name": "UY BOZOR TV",
+      "channel_link": "https://t.me/uybozortv",
+      "channel_id": "-1001556739612",
+      "my_channel": false,
+      "bot": null,
+      "type": 1,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 14,
+    "fields": {
+      "created_at": "2023-12-23T20:57:26.913Z",
+      "updated_at": "2023-12-23T20:57:26.913Z",
+      "channel_name": "MOSHINA BOZORIM",
+      "channel_link": "https://t.me/moshinabozorim",
+      "channel_id": "-1001735935616",
+      "my_channel": false,
+      "bot": null,
+      "type": 2,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 15,
+    "fields": {
+      "created_at": "2023-12-23T20:59:50.154Z",
+      "updated_at": "2023-12-23T20:59:50.154Z",
+      "channel_name": "Galaxy Redmi Bozor",
+      "channel_link": "https://t.me/Halol_Nasiya_Savdo_Bozor",
+      "channel_id": "-1001484649168",
+      "my_channel": false,
+      "bot": null,
+      "type": 3,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 16,
+    "fields": {
+      "created_at": "2023-12-23T21:02:29.094Z",
+      "updated_at": "2023-12-23T21:02:29.094Z",
+      "channel_name": "Malika bozor",
+      "channel_link": "https://t.me/noutbuk_malika",
+      "channel_id": "-1001693401723",
+      "my_channel": false,
+      "bot": null,
+      "type": 3,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 17,
+    "fields": {
+      "created_at": "2023-12-23T21:05:24.345Z",
+      "updated_at": "2023-12-23T21:05:24.345Z",
+      "channel_name": "Avtoelon.uz",
+      "channel_link": "https://t.me/avtoelon_moshinabozor_elon_bozor",
+      "channel_id": "-1001129483230",
+      "my_channel": false,
+      "bot": null,
+      "type": 2,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 18,
+    "fields": {
+      "created_at": "2023-12-23T21:06:52.858Z",
+      "updated_at": "2023-12-23T21:06:52.858Z",
+      "channel_name": "MOSHINA BOZOR \ud83d\ude98",
+      "channel_link": "https://t.me/avtoelon_mashina_toshkent",
+      "channel_id": "-1001892496049",
+      "my_channel": false,
+      "bot": null,
+      "type": 2,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 19,
+    "fields": {
+      "created_at": "2023-12-23T21:07:55.303Z",
+      "updated_at": "2023-12-23T21:07:55.303Z",
+      "channel_name": "Telefon Bozor",
+      "channel_link": "https://t.me/VODIY_TELEFON_BOZOR_TELFON",
+      "channel_id": "-1001325840057",
+      "my_channel": false,
+      "bot": null,
+      "type": 3,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 20,
+    "fields": {
+      "created_at": "2023-12-23T21:10:56.061Z",
+      "updated_at": "2023-12-23T21:10:56.061Z",
+      "channel_name": "\ud83d\udd38\u0426\u0435\u043d\u0442\u0440 \u043d\u0435\u0434\u0432\u0438\u0436\u0438\u043c\u043e\u0441\u0442\u0438\ud83d\udd38",
+      "channel_link": "https://t.me/uybozor_realtor",
+      "channel_id": "-1001295958294",
+      "my_channel": false,
+      "bot": null,
+      "type": 1,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 21,
+    "fields": {
+      "created_at": "2023-12-23T21:11:58.786Z",
+      "updated_at": "2023-12-23T21:11:58.786Z",
+      "channel_name": "Apple Bozor",
+      "channel_link": "https://t.me/Apple_iPhone_Ayfon_Bozor_Savdo",
+      "channel_id": "-1001446143779",
+      "my_channel": false,
+      "bot": null,
+      "type": 3,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 22,
+    "fields": {
+      "created_at": "2023-12-23T21:13:09.052Z",
+      "updated_at": "2023-12-23T21:13:09.052Z",
+      "channel_name": "MALIKA BOZOR",
+      "channel_link": "https://t.me/malikasavdomajmuasi",
+      "channel_id": "-1001338677652",
+      "my_channel": false,
+      "bot": null,
+      "type": 3,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 23,
+    "fields": {
+      "created_at": "2023-12-23T21:14:14.475Z",
+      "updated_at": "2023-12-23T21:14:14.475Z",
+      "channel_name": "KVARTIRA BAZAR",
+      "channel_link": "https://t.me/kvartira_bazar",
+      "channel_id": "-1001822111097",
+      "my_channel": false,
+      "bot": null,
+      "type": 1,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 24,
+    "fields": {
+      "created_at": "2023-12-23T21:15:13.576Z",
+      "updated_at": "2023-12-23T21:15:13.576Z",
+      "channel_name": "Apple Pro",
+      "channel_link": "https://t.me/malikaA8dokon",
+      "channel_id": "-1001182693017",
+      "my_channel": false,
+      "bot": null,
+      "type": 3,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 25,
+    "fields": {
+      "created_at": "2023-12-23T21:15:59.326Z",
+      "updated_at": "2023-12-23T21:15:59.326Z",
+      "channel_name": "TELEFON BOZOR",
+      "channel_link": "https://t.me/telefon_bozor_telfon_malikabozor",
+      "channel_id": "-1001543408569",
+      "my_channel": false,
+      "bot": null,
+      "type": 3,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 26,
+    "fields": {
+      "created_at": "2023-12-23T21:16:51.176Z",
+      "updated_at": "2023-12-23T21:16:51.176Z",
+      "channel_name": "Telefon Bozor | Telefon",
+      "channel_link": "https://t.me/telefon_bozor_telbozor_telfon",
+      "channel_id": "-1001896741807",
+      "my_channel": false,
+      "bot": null,
+      "type": 3,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 27,
+    "fields": {
+      "created_at": "2023-12-23T21:18:29.806Z",
+      "updated_at": "2024-01-07T11:46:36.888Z",
+      "channel_name": "Bizning Uylar",
+      "channel_link": "https://t.me/bizninguylar",
+      "channel_id": "-1001274716627",
+      "my_channel": false,
+      "bot": null,
+      "type": 1,
+      "setting": null
+    }
+  },
+  {
+    "model": "setting_ads.channels",
+    "pk": 28,
+    "fields": {
+      "created_at": "2023-12-23T21:19:11.477Z",
+      "updated_at": "2023-12-23T21:19:11.477Z",
+      "channel_name": "\u0422\u041e\u0428\u041a\u0415\u041d\u0422 \u0423\u0419\u0411\u041e\u0417\u041e\u0420 | \u0420\u0410\u0421\u041c\u0418\u0419 |",
+      "channel_link": "https://t.me/uybozor",
+      "channel_id": "-1001173619680",
+      "my_channel": false,
+      "bot": null,
+      "type": 1,
+      "setting": null
+    }
+  }
+]

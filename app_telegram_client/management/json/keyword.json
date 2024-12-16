@@ -1,0 +1,294 @@
+[
+  {
+    "fields": {
+      "text": "@uybozor_bizning_uylar",
+      "channel": 1
+    }
+  },
+  {
+    "fields": {
+      "text": "@kvartira_toshkent_uy_dacha_hovli",
+      "channel": 2
+    }
+  },
+  {
+    "fields": {
+      "text": "@Avto_elon_moshina_bor",
+      "channel": 3
+    }
+  },
+  {
+    "fields": {
+      "text": "@Avtobozor_car_bazar",
+      "channel": 4
+    }
+  },
+  {
+    "fields": {
+      "text": "@Avtoelonnuzb",
+      "channel": 5
+    }
+  },
+  {
+    "fields": {
+      "text": "@Arzon_telefonlar_bozorii",
+      "channel": 6
+    }
+  },
+  {
+    "fields": {
+      "text": "@Apple_bozor_rasmiy",
+      "channel": 7
+    }
+  },
+  {
+    "fields": {
+      "text": "@apple_samsung_market",
+      "channel": 8
+    }
+  },
+  {
+
+    "fields": {
+      "text": "https://t.me/+sBsVDUScAkk2Y2E6",
+      "channel": 9
+    }
+  },
+  {
+
+    "fields": {
+      "text": "@Telefon_bozor",
+      "channel": 10
+    }
+  },
+  {
+
+    "fields": {
+
+      "text": "https://t.me/joinchat/AAAAAEvwxYIEk9QmDCGMNw",
+      "channel": 11
+    }
+  },
+  {
+
+    "fields": {
+      "text": "@TELEFON_BOZOR_ADMINl\r\n\r\n\r\n\u3164",
+      "channel": 12
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 13,
+    "fields": {
+      "text": "@uybozortv",
+      "channel": 13
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 14,
+    "fields": {
+      "text": "https://telegram.me/+iC2WP8eik3ljYWEy",
+      "channel": 14
+    }
+  },
+  {
+
+    "fields": {
+      "text": "@telefon_bozor_toshkent_bot",
+      "channel": 15
+    }
+  },
+  {
+    "fields": {
+      "text": "https://instagram.com/mobile_market3003?igshid=MzRlODBiNWFlZA==",
+      "channel": 15
+    }
+  },
+  {
+    "fields": {
+      "text": "@Jalol_0510",
+      "channel": 15
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 18,
+    "fields": {
+      "created_at": "2023-12-23T21:02:29.095Z",
+      "updated_at": "2023-12-23T21:02:29.095Z",
+      "text": "@Academic_Safarov",
+      "channel": 16
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 19,
+    "fields": {
+      "created_at": "2023-12-23T21:02:29.095Z",
+      "updated_at": "2023-12-23T21:02:29.095Z",
+      "text": "Malika bozor kanali",
+      "channel": 16
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 20,
+    "fields": {
+      "created_at": "2023-12-23T21:02:29.096Z",
+      "updated_at": "2023-12-23T21:02:29.096Z",
+      "text": "Yangi Noutbuklar",
+      "channel": 16
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 21,
+    "fields": {
+      "created_at": "2023-12-23T21:02:29.096Z",
+      "updated_at": "2023-12-23T21:02:29.096Z",
+      "text": "Instagram",
+      "channel": 16
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 22,
+    "fields": {
+      "created_at": "2023-12-23T21:02:29.096Z",
+      "updated_at": "2023-12-23T21:02:29.096Z",
+      "text": "Location",
+      "channel": 16
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 23,
+    "fields": {
+      "created_at": "2023-12-23T21:05:24.346Z",
+      "updated_at": "2023-12-23T21:05:24.346Z",
+      "text": "https://telegram.me/joinchat/Gz9BpoyJmkgwOGM6",
+      "channel": 17
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 24,
+    "fields": {
+      "created_at": "2023-12-23T21:06:52.859Z",
+      "updated_at": "2023-12-23T21:06:52.859Z",
+      "text": "@Uzmovi_Tarjima_Kinolarbot",
+      "channel": 18
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 25,
+    "fields": {
+      "created_at": "2023-12-23T21:06:52.860Z",
+      "updated_at": "2023-12-23T21:06:52.860Z",
+      "text": "\u041c\u043e\u0448\u0438\u043d\u0430 \u0431\u043e\u0437\u043e\u0440\u0434\u0430 (https://t.me/+x1zlB9IHVJExYzM8)",
+      "channel": 18
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 26,
+    "fields": {
+      "created_at": "2023-12-23T21:07:55.304Z",
+      "updated_at": "2023-12-23T21:07:55.304Z",
+      "text": "https://telegram.me/joinchat/Twa2udvyqhBvbxvC",
+      "channel": 19
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 27,
+    "fields": {
+      "created_at": "2023-12-23T21:10:56.062Z",
+      "updated_at": "2023-12-23T21:10:56.063Z",
+      "text": "https://t.me/uybozor_realtor",
+      "channel": 20
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 28,
+    "fields": {
+      "created_at": "2023-12-23T21:11:58.788Z",
+      "updated_at": "2023-12-23T21:11:58.788Z",
+      "text": "@telefon_bozor_toshkent_bot",
+      "channel": 21
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 29,
+    "fields": {
+      "created_at": "2023-12-23T21:13:09.053Z",
+      "updated_at": "2023-12-23T21:13:09.053Z",
+      "text": "@malikasavdomajmuasi",
+      "channel": 22
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 30,
+    "fields": {
+      "created_at": "2023-12-23T21:14:14.476Z",
+      "updated_at": "2023-12-23T21:14:14.476Z",
+      "text": "@kvartira_bazar",
+      "channel": 23
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 31,
+    "fields": {
+      "created_at": "2023-12-23T21:15:13.577Z",
+      "updated_at": "2023-12-23T21:15:13.577Z",
+      "text": "https://t.me/malikaA8dokon",
+      "channel": 24
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 32,
+    "fields": {
+      "created_at": "2023-12-23T21:15:59.327Z",
+      "updated_at": "2023-12-23T21:15:59.327Z",
+      "text": "https://t.me/+t3sL7ENBjXxiMWE6",
+      "channel": 25
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 33,
+    "fields": {
+      "created_at": "2023-12-23T21:16:51.177Z",
+      "updated_at": "2023-12-23T21:16:51.177Z",
+      "text": "@teluzb_admin",
+      "channel": 26
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 34,
+    "fields": {
+      "created_at": "2023-12-23T21:19:11.478Z",
+      "updated_at": "2023-12-23T21:19:11.478Z",
+      "text": "@Uybozor",
+      "channel": 28
+    }
+  },
+  {
+    "model": "setting_ads.keywordchannelads",
+    "pk": 35,
+    "fields": {
+      "created_at": "2024-01-07T11:46:36.890Z",
+      "updated_at": "2024-01-07T11:46:36.890Z",
+      "text": "@bizninguylar",
+      "channel": 27
+    }
+  }
+]
