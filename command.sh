@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-
+git pull
 # Systemd xizmatlarini qayta boshlash
 sudo systemctl daemon-reload
 
