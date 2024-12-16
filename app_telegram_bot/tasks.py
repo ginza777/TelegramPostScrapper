@@ -55,7 +55,7 @@ def check_files_existence(message_id):
     return False
 
 
-@shared_task(name="send_message",queue="ads_manager_queue")
+@shared_task(name="send_message_task",queue="ads_manager_queue")
 def send_message_task():
     messages = Message.objects.filter(
         send_status=False,
@@ -68,8 +68,8 @@ def send_message_task():
                 send_message(message_id=message.message_id)
 
 
-@shared_task(name='delete_message',queue="ads_manager_queue")
-def delete_message():
+@shared_task(name='delete_message_task',queue="ads_manager_queue")
+def delete_message_task():
     # Bugungi sana olish
     today = timezone.now()
 

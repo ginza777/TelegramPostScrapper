@@ -1,4 +1,4 @@
-#!/Users/admin/Desktop/Projects/TelegramParserPro/env/bin/python3
+#!/Users/admin/Desktop/Projects/TelegramParserPro/env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
