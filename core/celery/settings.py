@@ -17,12 +17,12 @@ CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
 
 CELERY_BEAT_SCHEDULE = {
     'send-message-task': {
-        'task': 'sender.tasks.send_message_task',
+        'task': 'app_telegram_bot.tasks.send_message_task',
         # every 10 seconds
         'schedule': timedelta(seconds=90),
     },
     'delete_message_task': {
-        'task': 'sender.tasks.delete_message',
+        'task': 'app_telegram_bot.tasks.delete_message',
         'schedule': crontab(minute=0, hour=0),
     },
 

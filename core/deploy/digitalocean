@@ -146,7 +146,7 @@ sudo certbot renew --dry-run
 
 
 
-sudo journalctl -u bot --lines 50
+sudo journalctl -u TelegramParser --lines 50
 sudo tail -F /var/log/nginx/error.log
 
 
