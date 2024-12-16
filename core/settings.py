@@ -32,28 +32,22 @@ print(100*"-_")
 print(f"DEBUG: {DEBUG}")
 print(f"ALLOWED_HOSTS: {ALLOWED_HOSTS}")
 
-INSTALLED_DEFAULT_APPS = [
+INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-]
-
-INSTALLED_THIRDPARTS_APPS = [
     'django_celery_results',
     'django_celery_beat',
     'phonenumber_field',
-]
-
-INSTALLED_LOCAL_APPS = [
     'app_telegram_bot',
     'app_telegram_client',
+
 ]
 
-INSTALLED_APPS = INSTALLED_DEFAULT_APPS + INSTALLED_THIRDPARTS_APPS + INSTALLED_LOCAL_APPS
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -157,14 +151,12 @@ CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
 CELERY_BEAT_SCHEDULE = {
     'send-message-task': {
         'task': 'app_telegram_bot.tasks.send_message_task',
-        # every 10 seconds
-        'schedule': timedelta(seconds=90),
+        'schedule': timedelta(seconds=10),
     },
     'delete-message-task': {
         'task': 'app_telegram_bot.tasks.delete_message_task',
         'schedule': crontab(minute=0, hour=0),
     },
-
 }
 CELERY_QUEUES = {
     'ads_manager_queue': {
