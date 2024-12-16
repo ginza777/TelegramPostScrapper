@@ -27,7 +27,7 @@ env.read_env(".envir")
 
 SECRET_KEY = env.str("SECRET_KEY")
 DEBUG = env.bool("DEBUG", default=True)
-ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=['ads.zamonsher.icu'])
+ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=[])
 print(100*"-_")
 print(f"DEBUG: {DEBUG}")
 print(f"ALLOWED_HOSTS: {ALLOWED_HOSTS}")
