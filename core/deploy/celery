@@ -1,0 +1,42 @@
+
+
+
+sudo nano /etc/systemd/system/celery_ads_manager_worker.service
+
+
+
+[Unit]
+Description=Celery Ads Manager Worker
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/var/opt/TelegramParser/TelegramPostScrapper
+ExecStart=/bin/bash -c '/var/opt/TelegramParser/env/bin/celery -A core worker   -Q ads_manager_queue  --loglevel=info '
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+
+sudo nano /etc/systemd/system/celery_ads_manager_beat.service
+
+
+
+
+[Unit]
+Description=Celery Ads Manager Beat Scheduler
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/var/opt/TelegramParser/TelegramPostScrapper
+ExecStart=/bin/bash -c '/var/opt/TelegramParser/env/bin/celery -A core beat --loglevel=info --scheduler django_celery_beat.schedulers:DatabaseScheduler'
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target

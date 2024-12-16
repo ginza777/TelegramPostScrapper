@@ -1,0 +1,155 @@
+
+/var/opt/TelegramParser/env
+/var/opt/TelegramParser/TelegramPostScrapper
+
+sudo apt update
+sudo apt install nginx
+sudo systemctl enable nginx
+sudo systemctl start nginx
+sudo systemctl status nginx
+systemctl daemon-reload
+
+sudo nginx -t
+sudo systemctl restart nginx
+apt install python3-virtualenv
+apt install redis-server
+
+sudo apt update
+sudo apt install python3-venv python3-dev libpq-dev postgresql postgresql-contrib nginx curl
+
+sudo -u postgres psql
+
+CREATE DATABASE kinobot;
+CREATE USER sherzamon WITH PASSWORD 'sherzamon';
+ALTER USER sherzamon WITH PASSWORD  'sherzAmon2001A';
+ALTER ROLE postgres SET client_encoding TO 'utf8';
+ALTER ROLE postgres SET default_transaction_isolation TO 'read committed';
+ALTER ROLE postgres SET timezone TO 'UTC';
+GRANT CREATE ON SCHEMA public TO sherzamon;
+
+GRANT ALL PRIVILEGES ON DATABASE bot TO sherzamon;
+\q
+
+
+pip install -r requirements
+mkdir staticfiles
+python manage.py collectstatic
+pip install --upgrade setuptools
+python manage.py migrate
+python manage.py createsuperuser
+
+admin
+123
+
+
+sudo nano /etc/systemd/system/TelegramParser.socket
+
+[Unit]
+Description=TelegramParser socket
+
+[Socket]
+ListenStream=/run/TelegramParser.sock
+
+[Install]
+WantedBy=sockets.target
+
+
+sudo nano /etc/systemd/system/TelegramParser.service
+
+
+[Unit]
+Description=TelegramParser daemon
+Requires=TelegramParser.socket
+After=network.target
+
+[Service]
+User=root
+Group=www-data
+WorkingDirectory=/var/opt/TelegramParser/TelegramPostScrapper
+ExecStart=/var/opt/TelegramParser/env/bin/gunicorn \
+          --access-logfile - \
+          --workers 4 \
+          --bind unix:/run/TelegramParser.sock \
+          core.wsgi:application
+
+[Install]
+WantedBy=multi-user.target
+
+
+sudo systemctl start TelegramParser.socket
+sudo systemctl enable TelegramParser.socket
+sudo systemctl status TelegramParser.socket
+
+
+file /run/TelegramParser.sock
+sudo journalctl -u TelegramParser.socket
+curl --unix-socket /run/TelegramParser.sock localhost
+sudo journalctl -u TelegramParser
+
+sudo systemctl daemon-reload
+sudo systemctl restart TelegramParser
+sudo systemctl status TelegramParser
+
+
+
+
+
+
+openssl genpkey -algorithm RSA -out /etc/letsencrypt/live/crm.sherzamon.cloud/privkey.pem -pkeyopt rsa_keygen_bits:2048
+openssl genpkey -algorithm RSA -out /etc/letsencrypt/live/crm.sherzamon.cloud/fullchain.pem -pkeyopt rsa_keygen_bits:2048
+
+
+sudo nano /etc/nginx/sites-available/ads.zamonsher.icu
+
+
+
+server {
+    listen 80;
+    server_name ads.zamonsher.icu;
+
+
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /var/opt/TelegramParser/TelegramPostScrapper;
+    }
+
+    location /media/ {
+        root /var/opt/TelegramParser/TelegramPostScrapper;
+    }
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/run/TelegramParser.sock;
+        proxy_connect_timeout 300s;
+        proxy_read_timeout 300s;
+    }
+}
+
+
+
+sudo ln -s /etc/nginx/sites-available/ads.zamonsher.icu /etc/nginx/sites-enabled
+
+journalctl -xeu nginx.service
+
+
+
+
+
+#certbot
+
+sudo apt install certbot python3-certbot-nginx
+sudo certbot --nginx -d ads.zamonsher.icu
+sudo systemctl status certbot.timer
+sudo certbot renew --dry-run
+
+
+
+
+sudo journalctl -u bot --lines 50
+sudo tail -F /var/log/nginx/error.log
+
+
+
+celery -A  core beat --loglevel=info  --scheduler django_celery_beat.schedulers:DatabaseScheduler
+celery -A  core worker  --loglevel=info
