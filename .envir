@@ -1,4 +1,4 @@
-SECRET_KEY=dlfksdfsdkfjgsdkjfbIUHPPUPIUBdasbdipudbf43987539-485jgkbdg
+SECRET_KEY=-----
 DJANGO_SETTINGS_MODULE=core.settings
 ALLOWED_HOSTS=localhost,127.0.0.1,ads.zamonsher.icu
 DEBUG=True
